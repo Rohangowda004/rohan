@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohan S K | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar active">
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="assets/image/my-avatar.png">
+                </figure>
+                <div class="info-content">
+                    <h1 class="name">Rohan S K</h1>
+                    <p class="title"> Full Stack Developer | SQL Developer </p>
+                </div>
+                <button class="info_more-btn">
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+            <div class="sidebar-info_more">
+                <div class="separator"></div>
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+                            <a href="mailto:rohanskgowda04@gmail.com" class="contact-link">rohanskgowda04@gmail.com</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+                            <a href="tel:+917483583445" class="contact-link">+91 7483583445</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Date Of Birth</p>
+                            <time datetime="2004-03-10">10 March, 2004</time>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+                            <address>Banglore, India</address>
+                        </div>
+                    </li>
+                </ul>
+                <div class="separator"></div>
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Navbar -->
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <button class="navbar-link active" data-page="about">About</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-page="resume">Resume</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-page="portfolio">Portfolio</button>
+                    </li>
+                    <!-- <li class="navbar-item">
+                        <button class="navbar-link" data-page="blog">Blog</button>
+                    </li> -->
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-page="contact">Contact</button>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- About -->
+            <article class="about active" id="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+                <section class="about-text">
+                    <p>
+                        <b>Hello! I'm Rohan S K, a passionate and dedicated Information Science student with a strong foundation in programming and database systems. 
+                        <br>I hold a diploma in Civil Engineering, which has instilled in me a structured, analytical approach to solving problems.</b>
+                    </p>
+                    <p>
+                        <b>My transition into the IT field has been driven by a deep interest in technology and a desire to create innovative digital solutions. 
+                        <br>I've worked on diverse projects including an Automated Parking System using Machine Learning, a School Database Management System, and a Kannada Language Word Sense Disambiguation tool using Regular Expressions, IOT Based Smart Street Light System.</b>
+                    </p>
+                    <p>
+                        <b>I'm particularly interested in SQL/database management and full-stack development, and I'm constantly exploring new tools and technologies to improve my skills. 
+                        <br>I enjoy building clean, user-friendly websites and optimizing database performance.</b>
+                    </p>
+                    <p>
+                        <b>Currently, I'm seeking opportunities to contribute to dynamic teams and continue growing as a developer. Let's connect!</b>
+                    </p>
+                </section>
+                <section class="service">
+                    <h3 class="h3 service-title">What I've Done</h3>
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="assets/image/icon-dev.svg" alt="Web development icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web development</h4>
+                                <p class="service-item-text">
+                                    Building responsive and user-friendly websites using HTML, CSS, JavaScript, and React. Focused on delivering clean code and good UI/UX.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="assets/image/icon-design.svg" alt="Database icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Database Management</h4>
+                                <p class="service-item-text">
+                                    Designing and managing efficient SQL databases with optimized queries, normalization, indexing, and data security practices.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="assets/image/icon-design.svg" alt="Full stack icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Full-Stack Projects</h4>
+                                <p class="service-item-text">
+                                    Developing full-stack applications with a strong backend logic and modern frontend frameworks. Comfortable with both frontend and backend integration.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="assets/image/icon-photo.svg" alt="Photography icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Photography</h4>
+                                <p class="service-item-text">
+                                    I make high-quality photos of any category at a professional level.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <!-- Resume -->
+            <article class="resume" id="resume">
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Education</h3>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">SJB Institute Of Technology, Banglore</h4>
+                            <span>2022 — 2025</span>
+                            <p class="timeline-text">
+                                Focused on database management, full-stack development, and software engineering. Completed projects in machine learning, SQL, and web development.
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Govt.CPC Polytechnic, Mysore</h4>
+                            <span>2019 — 2022</span>
+                            <p class="timeline-text">
+                                Studied structural engineering and construction technology. Gained experience in design, planning, and project execution. Later transitioned to IT to follow passion for tech.
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">School</h4>
+                            <span>upto 2019</span>
+                            <p class="timeline-text">
+                                Completed foundational education with strong focus on mathematics and science. Developed an early interest in logical problem-solving and technology.
+                            </p>
+                        </li>
+                    </ol>
+                </section>
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Experience</h3>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Intern – Full Stack Developer (Scontinent Technologies)</h4>
+                            <span>2025</span>
+                            <p class="timeline-text">
+                                Worked on several self-initiated and collaborative projects including a social media prototype, a music web page, and a school database management system using HTML, CSS, React, and SQL.
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Machine Learning Intern – Compsoft Technologies</h4>
+                            <span>2024</span>
+                            <p class="timeline-text">
+                                Worked on the development of an <strong>Automated Parking System</strong> using machine learning techniques. Implemented license plate detection and data management features. Gained experience in Python, ML algorithms, and data processing.
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Junior Site Engineer (Internship)</h4>
+                            <span>2022</span>
+                            <p class="timeline-text">
+                                Worked on-site under civil engineering mentors to manage planning and execution of residential structures. Developed discipline and documentation skills, which later contributed to structured development practices in IT.
+                            </p>
+                        </li>
+                    </ol>
+                </section>
+                <section class="skill">
+                    <h3 class="h3 skills-title">My Skills</h3>
+                    <ul class="skills-list">
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">HTML & CSS</h5>
+                                <data value="90">90%</data>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 90%;"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">SQL & MySQL</h5>
+                                <data value="85">85%</data>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 85%;"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">JavaScript & React (JSX)</h5>
+                                <data value="75">75%</data>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 75%;"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Java & Python (Basic)</h5>
+                                <data value="65">65%</data>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 65%;"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">DBMS & Normalization</h5>
+                                <data value="80">80%</data>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 80%;"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Git & GitHub</h5>
+                                <data value="70">70%</data>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 70%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <!-- Portfolio -->
+            <article class="portfolio" id="portfolio">
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+                <section class="projects">
+                    <ul class="filter-list">
+                        <li class="filter-item">
+                            <button class="active">All</button>
+                        </li>
+                        <li class="filter-item">
+                            <button>Web development</button>
+                        </li>
+                        <li class="filter-item">
+                            <button>Database Management</button>
+                        </li>
+                        <li class="filter-item">
+                            <button>Full Stack</button>
+                        </li>
+                        <li class="filter-item">
+                            <button>IOT Projects</button>
+                        </li>
+                    </ul>
+                    <ul class="project-list">
+                        <li class="project-item">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="https://images.pexels.com/photos/5972217/pexels-photo-5972217.jpeg" alt="Automated Parking System" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Automated Parking System</h3>
+                                <p class="project-category">Web development</p>
+                            </a>
+                        </li>
+                        <li class="project-item">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="https://media.istockphoto.com/id/1738821112/photo/database-administrators-backup-company-and-customer-data-concept-databases-computer-dbms-dba.jpg?s=1024x1024&w=is&k=20&c=sTPuwa6p8oBbdEeXOVDVpcmmNPtnIoNGN-QieGbkxu8=" alt="School DBMS" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">School DBMS</h3>
+                                <p class="project-category">Database Management</p>
+                            </a>
+                        </li>
+                        <li class="project-item">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="https://images.pexels.com/photos/257904/pexels-photo-257904.jpeg" alt="Music Web Page" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Music Web Page</h3>
+                                <p class="project-category">Web development</p>
+                            </a>
+                        </li>
+                        <li class="project-item">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="https://images.pexels.com/photos/2294878/pexels-photo-2294878.jpeg" alt="Kannada Word Disambiguation" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Kannada Word Disambiguation</h3>
+                                <p class="project-category">Full Stack</p>
+                            </a>
+                        </li>
+                        <li class="project-item">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg" alt="Social Media Project" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Social Media Project</h3>
+                                <p class="project-category">Full Stack</p>
+                            </a>
+                        </li>
+                        <li class="project-item">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="https://media.istockphoto.com/id/1163853408/photo/modern-streetlights-with-led-technology-at-night-empty-modern-road.jpg?s=612x612&w=0&k=20&c=4HyB0W3XzsRNA6RMx5WZ9DcG-64jtPJzkpu3U40Fwc4=" alt="IOT Street Light System" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">IOT Based Smart Street Light System</h3>
+                                <p class="project-category">IOT Project</p>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <!-- Blog -->
+            <!-- <article class="blog" id="blog">
+                <header>
+                    <h2 class="h2 article-title">Blog</h2>
+                </header>
+                <section class="blog-posts">
+                    <ul class="blog-posts-list">
+                        <li class="blog-post-item">
+                            <a href="#">
+                                <figure class="blog-banner-box">
+                                    <img src="https://assets.intersystems.com/dims4/default/24e2cfd/2147483647/strip/true/crop/6400x4800+0+0/resize/1290x968!/quality/90/?url=http%3A%2F%2Finter-systems-brightspot.s3.amazonaws.com%2F30%2F16%2Fdf3b816e4e5bb30ad654bb9ae160%2Fgettyimages-157334670.jpg" alt="Database Design Principles" loading="lazy">
+                                </figure>
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Database</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2023-08-15">2023</time>
+                                    </div>
+                                    <h3 class="blog-item-title">Essential Database Design Principles</h3>
+                                    <p class="blog-text">
+                                        Learn the fundamental principles of effective database design and how to optimize your SQL queries.
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="blog-post-item">
+                            <a href="#">
+                                <figure class="blog-banner-box">
+                                    <img src="https://www.productplan.com/uploads/2018/08/product-development.png" alt="React Best Practices" loading="lazy">
+                                </figure>
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Development</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2023-07-28">2024</time>
+                                    </div>
+                                    <h3 class="blog-item-title">React Best Practices for 2023</h3>
+                                    <p class="blog-text">
+                                        Discover the latest React patterns and best practices to improve your frontend development workflow.
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="blog-post-item">
+                            <a href="#">
+                                <figure class="blog-banner-box">
+                                    <img src="https://kineis.com/wp-content/uploads/2025/03/IoT-internet-of-things.jpg" alt="IOT Development" loading="lazy">
+                                </figure>
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">IOT</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2023-06-10">2025</time>
+                                    </div>
+                                    <h3 class="blog-item-title">Getting Started with IOT Development</h3>
+                                    <p class="blog-text">
+                                        A beginner's guide to IOT development and how to build your first smart device project.
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article> -->
+
+            <!-- Contact -->
+            <article class="contact" id="contact">
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+                <section class="mapbox">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497699.9973874144!2d77.35073221903857!3d12.95384772557775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1691603093525!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+                <section class="contact-form">
+                    <h3 class="h3 form-title">Contact Form</h3>
+                    <form action="#" class="form">
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required>
+                            <input type="email" name="email" class="form-input" placeholder="Email address" required>
+                        </div>
+                        <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+                        <button class="form-btn" type="submit">
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </section>
+            </article>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
